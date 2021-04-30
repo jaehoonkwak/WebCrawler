@@ -7,27 +7,27 @@
 
 1. ✅ Input to the program: a list of urls (e.g., in a text file format)
    
-    👉 main/main.py _(#9)_
+    👉 main/main.py _(#8)_
    
 
 2. ✅ Retrieve the html contents from the specified web sites (해당하는 web site html을 다운로드) 
    
-    👉 main/main.py _(#13)_
+    👉 main/main.py _(#12)_
    
 
 3. ✅ Parse the html contents to extract hyperlinks (<href="...">) (html 중 hyperlink 부분 추출)
    
-    👉 main/crawler.py _(#27)_
+    👉 main/crawler.py _(#36)_
    
 
 4. ✅ Crawl again from the parsed hyperlinks. (파싱한 url web site를 다시 가져오기)
    
-    👉 main/crawler.py _(#37)_
+    👉 main/crawler.py _(#46)_
    
 
 5. ✅ Remove duplicates (파싱한 url list 중 중복 제거)
    
-    👉 main/crawler.py _(#18)_
+    👉 main/crawler.py _(#29)_
 
 ## _IF YOU RUN:_
 ~~~~

@@ -30,7 +30,3 @@ def test_crawl_SHOULD_return_crawled_url_list_WHEN_input_is_valid_url(mocked_url
     assert actual is not None
     assert type(actual) is list
     assert len(actual) == 1
-
-
-def test_set():
-    assert False
